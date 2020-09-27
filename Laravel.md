@@ -77,3 +77,8 @@ Create AuthController
 ## 在 Laravel 7 中使用 UUID
 
 参考此文章[链接](https://learnku.com/laravel/t/44937)
+
+## 在 Laravel 中使用 AWS S3 存储系统
+
+参考此文章 [Getting started with Amazon S3 storage in Laravel](https://dev.to/aschmelyun/getting-started-with-amazon-s3-storage-in-laravel-5b6d)
+
