@@ -23,7 +23,7 @@
 
 ### 安装 Dcat Admin
         
-        composer require dcat/laravel-admin:"2.0.9-beta"
+        composer require dcat/laravel-admin:"2.0.10-beta"
         php artisan admin:install
         php artisan admin:publish --assets --force
         php artisan admin:publish --migrations --force # 表结构有变动
@@ -59,3 +59,20 @@
 ## Migrate 数据库迁移
 
         php artisan migrate
+
+
+# 其他
+
+### 修改Footer 
+
+Path:
+
+- vendor/dcat/laravel-admin/resources/views/layouts/vertical.blade.php
+
+###  Github 出现冲突
+
+
+解决本地冲突 
+
+        git reset --hard
+        git clean -d -f

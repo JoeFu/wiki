@@ -4,7 +4,7 @@
 ## Laravel 常用命令
 
     php artisan key:generate 加密服务，生成key
-    php artisan  migrate  迁徙数据库
+    php artisan migrate  迁徙数据库
     php artisan migrate:rollback
     php artisan migrate:fresh
 
